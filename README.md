@@ -71,6 +71,6 @@ Matriz aumentada:
 <p>[4.5]</p>
 <p>[8.1]]</p>
 
-## Metodo de
+## Metodo de Lagrange
 
 
