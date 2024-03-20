@@ -10,7 +10,7 @@
 ##EJEMPLOS##
 
 ## Metodo por Biseccion
-  + Entrada
+  + ***### Entrada ###***
 La ecuación mostrada tiene una raiz en [1,2], ya que f(1)=-5 y f(2)=14 y existe cambio de signo. Muestre los resultados parciales del algoritmo de la bisección con una tolerancia de 0.0001
 f(x)=x^3+4x^2−10=0
 + INGRESO
@@ -19,7 +19,7 @@ a = 1
 b = 2
 tolera = 0.001
 
-+ Salida
++ ***### Salida ###***
   
 ***[   i   , a    , c    , b   , f(a)   , f(c)   , f(b)   ,  tramo]***
 <p>1 - 1.000 1.500 2.000 -5.000 2.375 14.000 1.000</p>
@@ -40,7 +40,7 @@ raiz: - 1.36474609375
 + Método de Gauss-Jordan
 +Solución a Sistemas de Ecuaciones de la forma A.X=B
 
-+ INGRESO
++ ***### INGRESO ###***
 A = np.array([[4,2,5],
               [2,5,8],
               [5,4,3]])
@@ -48,7 +48,7 @@ A = np.array([[4,2,5],
 B = np.array([[60.70],
               [92.90],
               [56.30]])
-+ **Salida**
++ ***### Salida ###***
 
 Matriz aumentada:
 <p>[[ 4.   2.   5.  60.7]</p>
