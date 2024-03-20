@@ -1,4 +1,5 @@
-```Metodo de Gauss-Jordan
+```python:
+#Metodo de Gauss-Jordan
 # SoluciÃ³n a Sistemas de Ecuaciones
 # de la forma A.X=B
 
