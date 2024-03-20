@@ -48,7 +48,7 @@ A = np.array([[4,2,5],
 B = np.array([[60.70],
               [92.90],
               [56.30]])
-+ Salida
++ **Salida**
 
 Matriz aumentada:
 <p>[[ 4.   2.   5.  60.7]</p>
