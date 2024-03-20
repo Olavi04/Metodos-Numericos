@@ -1,7 +1,10 @@
-<h1>Metodos Numericos</h1>
+# Metodos Numericos
 
-# funciones y metodos hechos en excel xd
-apoco si
+  + Biseccion
+  + Gauss
+  + Lagrange
+  + Newton
+  + Secante
+  + Euler
+
 ## xd
-no
-no cre
