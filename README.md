@@ -10,11 +10,15 @@
 
 ## Eliminacion Gaussiana
 
+> Ejemplo
+
 
   
 
 
 ## Método de Gauss-Jordan
+
+> Ejemplo
 
 + Método de Gauss-Jordan
 +Solución a Sistemas de Ecuaciones de la forma A.X=B
@@ -61,3 +65,5 @@ Matriz aumentada:
 
 
 ## Jacobi
+
+> Ejemplo
