@@ -60,7 +60,15 @@ Matriz aumentada:
 
 > Ejemplo
 
-
+respuesta X: 
+[[ 3. ]
+ [-2.5]
+ [ 7. ]]
+verificar A.X=B: 
+[[  7.84999999]
+ [-19.3       ]
+ [ 71.4       ]]
+>>> 
 
 
 
