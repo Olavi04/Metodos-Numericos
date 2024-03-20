@@ -1,13 +1,6 @@
 ´´´python
-# SALIDA
-print('Matriz aumentada:')
-print(AB0)
-print('Pivoteo parcial por filas')
-print(AB1)
-print('eliminacion hacia adelante')
-print(AB2)
-print('eliminación hacia atrás')
-print(AB)
-print('solución de X: ')
-print(X) 
-´´´python
+a, b = 0, 1
+while b < 10:
+    print(b)
+    a, b = a, a + b
+´´´
