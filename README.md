@@ -14,13 +14,13 @@
 La ecuación mostrada tiene una raiz en [1,2], ya que f(1)=-5 y f(2)=14 y existe cambio de signo. Muestre los resultados parciales del algoritmo de la bisección con una tolerancia de 0.0001
 f(x)=x^3+4x^2−10=0
 + INGRESO
-fx = lambda x: x**3 + 4*x**2 - 10 
+fx = lambda x: x^3+4x^2−10 
 a = 1
 b = 2
 tolera = 0.001
 
 + Salida
-  [?2004l
++ 
 [ i, a, c, b, f(a), f(c), f(b), tramo]
 1 1.000 1.500 2.000 -5.000 2.375 14.000 1.000 
 2 1.000 1.250 1.500 -5.000 -1.797 2.375 0.500 
