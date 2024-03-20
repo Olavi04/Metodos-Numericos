@@ -54,6 +54,7 @@ Matriz aumentada:
 
 ## Gauss-Seidel
 
+> Ejemplo
 
 
 
