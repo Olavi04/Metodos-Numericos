@@ -16,7 +16,19 @@ Resolver el sistema de ecuaciones lineales
 
 ![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/eaaced2b-a676-45c5-be23-1139ce505e1a)
 
-  
+  ![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/da744597-d160-43f0-9cab-afe2ed201b0f)
+
+Utilizando Eliminación Gaussiana obtenemos lo siguiente:
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/9c749304-daee-4c01-a08b-dbffc8f1977b)
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/6d1e570c-1b72-4f92-ae8d-d663f84123fa)
+
+Concluimos que la solución del sistema de ecuaciones es:
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/4153b975-aa6e-41b5-80c2-b60cfa39d4c4)
+
+
 
 
 ## Método de Gauss-Jordan
