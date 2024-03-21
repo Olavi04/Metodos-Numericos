@@ -91,7 +91,7 @@ verificar A.X=B:
 
 > Ejemplo
 
-Método Jacobi para resolver ecuaciones.
+Método Jacobi para resolver ecuaciones.</p>
 método iterativo (llamado así por Carl Gustav Jacob Jacobi):
 
 
