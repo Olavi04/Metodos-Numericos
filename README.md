@@ -12,6 +12,9 @@
 
 > Ejemplo
 
+Resolver el sistema de ecuaciones lineales
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/eaaced2b-a676-45c5-be23-1139ce505e1a)
 
   
 
