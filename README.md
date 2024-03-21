@@ -90,3 +90,17 @@ verificar A.X=B:
 ## Jacobi
 
 > Ejemplo
+
+método iterativo (llamado así por Carl Gustav Jacob Jacobi):
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/d11cba64-1f83-4d91-8322-9e16e2e04238)
+
+Aquí hay un esquema básico del algoritmo del método Jacobi:
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/c56cfb83-d06a-4ee1-977f-b4cec6910e8f)
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/4dbc3d79-a82a-43cb-bff9-57b9b8a08953)
+
+
+
+
+
+
