@@ -75,16 +75,55 @@ Matriz aumentada:
 
 > Ejemplo
 
-respuesta X: 
-[[ 3. ]
- [-2.5]
- [ 7. ]]
-verificar A.X=B: 
-[[  7.84999999]
- [-19.3       ]
- [ 71.4       ]]
->>> 
+En el método de Gauss-Seidel se propone ir sustituyendo los nuevos valores de la aproximación siguiente conforme se vayan obteniendo sin esperar a tener un vector completo. De esta forma se acelera la convergencia.
 
+Para resolverlo podemos seguir los siguientes pasos:
++ Asignar valores iniciales a las incógnitas, pudiendo ser hipotéticos o arbitrarios.
++ Empezar con la primera ecuación y calcular el valor de la incógnita con el coeficiente más grande, usando los valores asignados en el paso 1 para las otras incógnitas.
++ Proceder a la siguiente ecuación y calcular el valor de la incógnita con el coeficiente más grande, usando el valor calculado en el paso anterior y los valores iniciales para las otras incógnitas.
++ Repetir este proceso para las ecuaciones restantes, calculando siempre el valor de la incógnita con el coeficiente más grande en cada ecuación y usando los últimos valores calculados para las otras incógnitas.
++ Continuar iterando hasta que los valores de las incógnitas no cambien significativamente entre iteraciones.
+
+Matriz a resolver
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/23561183-a5ab-4579-b9a4-f7589fb0054a)
+
+## SOLUCION O DEDSARROLLO
+
+Primero ordenamos las ecuaciones, de modo que en la diagonal principal esten los coeficientes mayores para asegurar la convergencia.
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/b61d977d-dd5e-4edb-8270-107f1e0a6e28)
+
+Despejamos cada una de las variables sobre la diagonal:
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/ca6743a0-9c53-454f-8b82-b737fcdaad0c)
+
+Suponemos los valores iniciales X2 = 0 y X3 = 0 y calculamos X1
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/646d73c4-9007-416e-973c-79bd1703ed1e)
+
+La primera iteración se completa sustituyendo los valores de X1 y X2 calculados obteniendo:
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/afbf3a25-48b4-41cd-83df-d8ad07e2ea6b)
+
+En la segunda iteración, se repite el mismo procedimiento:
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/7453b4c6-7010-4961-8385-2207c5b41983)
+
+Comparando los valores calculados entre la primera y la segunda iteración
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/daf0178f-43bf-4cb6-ab1e-2493a8776869)
+
+Entonces tomamos los valores calculados en la última iteración y se toman como supuestos para la siguiente iteración. Se repite entonces el proceso:
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/3dca4bdb-4b59-4b66-be3e-2548760dae33)
+
+Comparando los valores obtenidos
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/74631221-10a0-48ab-8bfb-2cd8b725a108)
+
+
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/656f91e7-1f88-461c-82a6-2b1ebdee9811)
 
 
 ## Jacobi
