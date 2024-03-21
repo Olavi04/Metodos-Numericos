@@ -89,7 +89,7 @@ verificar A.X=B:
 
 ## Jacobi
 
-> Ejemplo
+> Ejemplo base
 
 Método Jacobi para resolver ecuaciones.</p>
 método iterativo (llamado así por Carl Gustav Jacob Jacobi):
@@ -104,7 +104,9 @@ Aquí hay un esquema básico del algoritmo del método Jacobi:
 
 ![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/4dbc3d79-a82a-43cb-bff9-57b9b8a08953)
 
+Ejemplo
 
+![image](https://github.com/Olavi04/Metodos-Numericos/assets/160789479/b5d5db9d-93ec-4e73-ab99-4c7262ef1314)
 
 
 
